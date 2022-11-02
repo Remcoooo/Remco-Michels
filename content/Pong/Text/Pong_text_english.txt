@@ -1,0 +1,4 @@
+You probally have heard of pong, this was my first project in coding i've ever done.
+This was a whole new experience because i could type some code and made something work.
+This project was made in Unity with C#.
+It was allot of fun creating Pong as my first project, wich is also one of the first games ever made.

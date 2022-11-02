@@ -1,0 +1,4 @@
+Je hebt vast wel eens van de game Pong gehoord, dit was mijn eerste project in coding ooit.
+Het was een hele nieuwe ervaring omdat ik wat code kon schrijven en daardoor iets laten werken.
+Dit project is gemaakt in Unity met C#.
+Het was een leuke ervaring om Pong te maken als mijn eerste project, en het is ook nog een van de eerste games ooit gemaakt.

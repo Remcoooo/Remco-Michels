@@ -1,0 +1,6 @@
+Deze database was een school project in mijn 1e jaar van de opleiding Software development,
+dit was de eerste database die ik heb gemaakt. Deze database is gemaakt met PHP, HTML en CSS.
+Het was een leuk en leerzaam project. We konden de gebruiker informatie ontvangen en versturen van en naar de database,
+zodat we deze informatie weer ergens anders konden gebruiken zoals het laten zien van de gebruiker's naam.
+Het was een uitdagend project, PHP was anders dan de andere talen die we hebben gebruikt zoals HTML/CSS, het is uiteindlijk wel allemaal goed gelukt
+Ik had ook de mogelijkheid om rond te spelen met de styling van de pagina om het mooier te maken voor de gebruiker.

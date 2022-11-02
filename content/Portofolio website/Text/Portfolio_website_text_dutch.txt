@@ -1,0 +1,4 @@
+Mijn portfolio website, dit was mijn eerste portfolio website.
+Deze website is gemaakt als eind project voor mijn 3e periode in mijn eerste jaar.
+Ik heb veel geleerd over het maken van websites en het toevoegen van verschillende elementen.
+Voor deze website heb ik alleen HTML en CSS gebruikt, ik wist hier nog niet hoe Javascript werkte.

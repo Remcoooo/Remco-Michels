@@ -1,0 +1,5 @@
+My portfolio website, this was my first attempt at making a portfolio website. 
+This website was made as an end project for my 3th period in my first year.
+I learned allot about making the website look good and adding different elements.
+For this website i only used HTML and CSS, i didn't know much about Javascript.
+

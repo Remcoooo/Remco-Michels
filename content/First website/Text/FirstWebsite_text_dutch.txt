@@ -1,0 +1,7 @@
+Dit was mijn eerste website die ik gemaakt heb in het eerste jaar op SintLucas.
+Ik snapte niet veel van het maken van een website maar we leerde al snel de basics.
+We moesten 3 pagina's maken die je kon bereiken vanaf de home page.
+We leerde hoe we elementen toe moesten voegen met html/css,
+we leerde hoe we elementen moesten positioneren en hoe we plaatjes toe moesten voegen.
+Een klein beetje css is er gebruikt om de website een beetje mooier te maken.
+

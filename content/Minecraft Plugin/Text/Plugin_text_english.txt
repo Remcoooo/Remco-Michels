@@ -1,0 +1,24 @@
+This minecraft plugin was my first ever free project made in my second period of my first year as a Software Developer student
+
+I started working on the custom recipe for my backpack.
+If you put this in the crafting table you get a normal minecraft item wit a different recipe.
+Because of this i had the abillity to make my own item with custom name and lore
+to this item i could attach the backpack GUI.
+Only with this specific made item you could open the GUI.
+
+Here i make sure that the right GUI is connected to the right backpack.
+The console also looks to what item the player holds if this is the right item
+with name and lore of the custom item you can open the GUI of the backpack.
+
+The GUI of the backpack plugin is safed here, so everytime the player opens his
+backpack the same stuff is still in there. I used a Hashmap for this,
+this makes sure that if the server stops that all the items in the GUI are getting saved to the config,
+if the server reboots the config is loaded and the player recieves his items in the backpack.
+
+I also made my own command so if the players types in the chat
+he gets info about the backpack plugin.
+
+I made sure that the model of my backpack looked different than a normal minecraft item,
+i made my own model and imported it to the server.
+
+This is the endresult of the backpack with the custom recipe and GUI.

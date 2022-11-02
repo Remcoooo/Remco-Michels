@@ -1,0 +1,19 @@
+Dit is mijn minecraft plugin gemaakt met Java, dit project was een project waar we de vrije hand kregen in wat we mochten maken.
+
+Ik heb gekozen voor een minecraft plugin.
+Ik begon met het maken van een custom recipe voor mijn backpack. 
+Als je dit in de crafting table doet komt er het zelfde item uit met een ander recipe. 
+Dit zorge ervoor dat ik dit item een eigen naam en onderschrift kon geven zodat ik hier mijn GUI (de inventory van de backpack) aan kon hangen. 
+En dat alleen bij dit specifiek gemaakte item de GUI werkte.
+
+Hier zorg ik ervoor dat de GUI van de backpack aan het goede item word gehangen. 
+De console kijkt hier ook naar welk item de player vast heeft en als dit klopt met de naam en onderschrift van mijn custom item dan kun je de GUI openen van de backpack.
+De GUI van de backpack word hier opgeslagen, dus elke keer als de player de backpack opnieuw opent zitten de zelfde spullen er nog in. 
+
+Ik gebruik hiervoor een Hashmap, dit zorgt ervoor dat als de server stop word gezet dat de spullen van de GUI opgeslagen worden naar de config, 
+als de server weer op wordt gestart word deze config geladen en krijgt de player zijn spullen.
+
+Ook heb ik een eigen command gemaakt dus als de player deze in de console intypt krijgt hij/zij informatie over de backpack.
+
+Om er voor te zorgen de het icoon van de backpack er anders uit komt te zien dan een normaal Minecraft item, 
+heb ik een eigen model gemaakt en deze geimporteerd in de server.

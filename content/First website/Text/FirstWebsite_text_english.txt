@@ -1,0 +1,6 @@
+This is my first ever website, created in my first year of SintLucas. 
+I didn't have much understanding of making a website but quickly learned the basics.
+We had to make 3 pages wich needed to be accessible from the main page.
+We learned how to add elements to your website using html/css, we learned how to position things and the usage of pictures.
+A little bit of css was involved to, to make the website look a little bit nicer.
+
