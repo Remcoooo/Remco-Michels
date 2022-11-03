@@ -36,12 +36,12 @@
             <li><img src="content/images/moon.png" id="darkMode" width="25" height="25"></li>
             <li></li>
             <li>
-              <div onclick="languageDropdown()" class="dropwdown">
-                <a class="nav4 languages">
+              <div class="even-columns-nav">
+                <a class="languages">
                   <svg class="icon" width="25" height="25">
                     <use xlink:href="content/images/globe-solid.svg#globe-solid"></use>
                   </svg>
-                  Languages
+                  <div onclick="languageDropdown()" class="dropdown"><a class="languages nav4">Languages</a></div>
                 </a>
                 <div id="myDropdown" class="dropdown-content animate slideIn">
                   <a class="dropdown2 languageSelector" language="english" href="#">English</a>
@@ -88,15 +88,15 @@
                   <h3 class="contact1 fs-secondary-heading fw-bold padding-block-400">Contact me</h3>
 
                   <form onsubmit="event.preventDefault(); validateForm()">
-                    <label for="name form1">Name</label>
+                    <label class="form1" for="name">Name</label>
                     <input type="text" id="name" placeholder="Your name">
                     <small class="error"></small>
 
-                    <label for="email form2">Email</label>
+                    <label class="form2" for="email">Email</label>
                     <input type="text" id="email" placeholder="Your email">
                     <small class="error"></small>
 
-                    <label for="message form3">Message</label>
+                    <label class="form3" for="message">Message</label>
                     <textarea id="message" placeholder="Your message" rows="4"></textarea>
                     <small class="error"></small>
                     
@@ -378,14 +378,14 @@
       <div class="primary-footer-wrapper">
         <div class="primary-footer-logo-social">
           <a href="#" aria-label="home">
-            <svg class="logo" width="146" height="24">
-              <use xlink:href="images/logo.svg#logo"></use>
+            <svg class="logo-footer" width="146" height="24">
+              <use xlink:href="content/About me/Images/logo.svg#Logo-Remco-Transparant-Black-VECTOR"></use>
             </svg>
           </a>
 
           <ul class="social-list" role="list" aria-label="Social links">
             <li>
-              <a aria-label="github" href="#">
+              <a aria-label="github" href="https://github.com/Remcoooo/Remco-Michels.git">
                 <svg class="social-icon">
                   <use xlink:href="content/images/social-icons.svg#github"></use>
                 </svg>

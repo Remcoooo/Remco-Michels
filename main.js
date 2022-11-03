@@ -246,7 +246,6 @@ const navC = document.querySelector('.nav3');
 const navD = document.querySelector('.nav4');
 const dropdownA = document.querySelector('.dropdown1');
 const dropdownB = document.querySelector('.dropdown2');
-const dropdownC = document.querySelector('.dropdown3');
 const aboutmeA = document.querySelector('.aboutme1');
 const aboutmeB = document.querySelector('.aboutme2');
 const aboutmeC = document.querySelector('.aboutme3');
@@ -285,13 +284,13 @@ link.forEach(el => {
     navD.textContent = data[attr].nav4;
     dropdownA.textContent = data[attr].dropdown1;
     dropdownB.textContent = data[attr].dropdown2;
-    dropdownC.textContent = data[attr].dropdown3;
     aboutmeA.textContent = data[attr].aboutme1;
     aboutmeB.textContent = data[attr].aboutme2;
     aboutmeC.textContent = data[attr].aboutme3;
     aboutmeD.textContent = data[attr].aboutme4;
     aboutmeE.textContent = data[attr].aboutme5;
     aboutmeF.textContent = data[attr].aboutme6;
+    contactA.textContent = data[attr].contact1;
     formA.textContent = data[attr].form1;
     formB.textContent = data[attr].form2;
     formC.textContent = data[attr].form3;
@@ -314,7 +313,7 @@ link.forEach(el => {
   });
 });
 
-var data = {
+let data = {
   "english": 
   {
     "nav1": "Home",
@@ -323,7 +322,6 @@ var data = {
     "nav4": "Language",
     "dropdown1" : "Dutch",
     "dropdown2" : "English",
-    "dropdown3" : "French",
     "aboutme1" : "Hi my name is Remco Michels.",
     "aboutme2" : "I'm 20 years old and i am studying software development in Sint Lucas, currently i am in my second year. And i want to become a front-end developer.",
     "aboutme3" : "About me",
@@ -359,7 +357,6 @@ var data = {
     "nav4": "Taal",
     "dropdown1" : "Nederlands",
     "dropdown2" : "Engels",
-    "dropdown3" : "Frans",
     "aboutme1" : "Hallo mijn naam is Remco Michels.",
     "aboutme2" : "Ik ben 20 jaar oud en en ik studeer software development op het Sint Lucas college, ik zit nu in mijn 2e leerjaar. En ik wil een front-end developer worden.",
     "aboutme3" : "Over mij",
