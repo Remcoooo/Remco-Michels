@@ -87,17 +87,17 @@
                 <div class="modalContact">
                   <h3 class="contact1 fs-secondary-heading fw-bold padding-block-400">Contact me</h3>
 
-                  <form onsubmit="event.preventDefault(); validateForm()">
+                  <form action="mail.php" method="post" onsubmit="event.preventDefault(); validateForm()">
                     <label class="form1" for="name">Name</label>
-                    <input type="text" id="name" placeholder="Your name">
+                    <input type="text" name="name" id="name" placeholder="Your name">
                     <small class="error"></small>
 
                     <label class="form2" for="email">Email</label>
-                    <input type="text" id="email" placeholder="Your email">
+                    <input type="text" name="email" id="email" placeholder="Your email">
                     <small class="error"></small>
 
                     <label class="form3" for="message">Message</label>
-                    <textarea id="message" placeholder="Your message" rows="4"></textarea>
+                    <textarea id="message" name="message" placeholder="Your message" rows="4"></textarea>
                     <small class="error"></small>
                     
                     <div class="submitCenter">

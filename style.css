@@ -408,7 +408,7 @@ p[data-width="wide"] {
   content: '';
   position: absolute;
   z-index: -1;
-  right: 210px !important;
+  left: 0px !important;
   top: 800px;
   width: 87%;
   max-height: 70vh;
