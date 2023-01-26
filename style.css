@@ -497,10 +497,18 @@ p[data-width="wide"] {
   padding: 3em;
 }
 
+.pm-modal a {
+  margin-top: 0 !important;
+}
+
 .pm-header {
   font-weight: var(--fw-bold);
   font-size: var(--fs-900);
   margin-top: 0 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .pm-text {
@@ -515,6 +523,10 @@ p[data-width="wide"] {
   gap: 2em;
 }
 
+.pm-footer a{
+  margin-left: auto;
+}
+
 .pm-icon {
   margin-top: 0 !important;
   height: 1.5em;
@@ -527,6 +539,14 @@ p[data-width="wide"] {
 
 .img-2 {
   margin-top: 0 !important;
+}
+
+.page-visit {
+  font-size: var(--fs-300);
+}
+
+.page-visit a {
+  color: blue !important;
 }
 
 /* * form */
