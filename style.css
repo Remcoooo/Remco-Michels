@@ -789,6 +789,13 @@ input[type="submit"] {
   margin-inline: auto;
 }
 
+.see-more {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
 .even-columns {
   display: grid;
   gap: 1rem;
