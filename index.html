@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cookie.css" />
     <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css"/>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js%22%3E"></script>
     <script src="https://kit.fontawesome.com/55d59cd707.js" crossorigin="anonymous"></script>
@@ -17,6 +18,15 @@
 </head>
 
 <body>
+  <div id="cookiePopup" class="hideCookie">
+    <img src="content/images/cookie.png" />
+    <p class="cookie-information">
+      Our website uses cookies to provide your browsing experience and
+      relevant information. Before continuing to use our website, you agree &
+      accept of our <a href="https://www.cookiepolicygenerator.com/live.php?token=gwFKlxgPkFDsSGSh6xV8zHiummtnBm57"  target="_blank">Cookie Policy & Privacy.</a>
+    </p>
+    <button id="acceptCookie">Accept</button>
+  </div>
   <header class="primary-header">
     <div class="container">
       <div class="nav-wrapper">
@@ -433,7 +443,7 @@
       </div>
     </div>
   </footer>
-
+  <script src="cookie.js"></script>
   <script src="main.js"></script>
 </body>
 </html>

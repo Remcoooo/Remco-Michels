@@ -834,7 +834,7 @@ input[type="submit"] {
 }
 
 :where(.flow :not(:first-child)) {
-  margin-top: var(--flow-spacer, 3em);
+  margin-top: var(--flow-spacer, 3em) !important;
 }
 
 .text-center {
