@@ -61,6 +61,42 @@ closeModal.addEventListener("click", () => {
 
 // Toggle modal projects
 
+const modalBloemenschuur = document.querySelector("#modalBloemenschuur");
+const openBloemenschuur = document.querySelectorAll(".open-bloemenschuur");
+const closeBloemenschuur = document.querySelector(".close-bloemenschuur");
+
+const modalGPBulls = document.querySelector("#modalGPBulls");
+const openGPBulls = document.querySelectorAll(".open-gpbulls");
+const closeGPBulls = document.querySelector(".close-gpbulls");
+
+const modalGreenHill = document.querySelector("#modalGreenHill");
+const openGreenHill = document.querySelectorAll(".open-greenhill");
+const closeGreenHill = document.querySelector(".close-greenhill");
+
+const modalAgrobots = document.querySelector("#modalAgrobots");
+const openAgrobots = document.querySelectorAll(".open-agrobots");
+const closeAgrobots = document.querySelector(".close-agrobots");
+
+const modalWedentify = document.querySelector("#modalWedentify");
+const openWedentify = document.querySelectorAll(".open-wedentify");
+const closeWedentify = document.querySelector(".close-wedentify");
+
+const modalNodalco = document.querySelector("#modalNodalco");
+const openNodalco = document.querySelectorAll(".open-nodalco");
+const closeNodalco = document.querySelector(".close-nodalco");
+
+const modalRCA = document.querySelector("#modalRCA");
+const openRCA = document.querySelectorAll(".open-rca");
+const closeRCA = document.querySelector(".close-rca");
+
+const modalBabb = document.querySelector("#modalBabb");
+const openBabb = document.querySelectorAll(".open-babb");
+const closeBabb = document.querySelector(".close-babb");
+
+const modalLuukjanssen = document.querySelector("#modalLuukjanssen");
+const openLuukjanssen = document.querySelectorAll(".open-luukjanssen");
+const closeLuukjanssen = document.querySelector(".close-luukjanssen");
+
 const modalDatabase = document.querySelector("#modalDatabase");
 const openDatabase = document.querySelectorAll(".open-database");
 const closeDatabase = document.querySelector(".close-database");
@@ -81,9 +117,77 @@ const modalPong = document.querySelector("#modalPong");
 const openPong = document.querySelectorAll(".open-pong");
 const closePong = document.querySelector(".close-pong");
 
-const modalWebsite = document.querySelector("#modalWebsite");
-const openWebsite = document.querySelectorAll(".open-website");
-const closeWebsite = document.querySelector(".close-website");
+openBloemenschuur[0].addEventListener("click", () => {
+  modalBloemenschuur.showModal();
+});
+
+closeBloemenschuur.addEventListener("click", () => {
+  modalBloemenschuur.close();
+});
+
+openGPBulls[0].addEventListener("click", () => {
+  modalGPBulls.showModal();
+});
+
+closeGPBulls.addEventListener("click", () => {
+  modalGPBulls.close();
+});
+
+openGreenHill[0].addEventListener("click", () => {
+  modalGreenHill.showModal();
+});
+
+closeGreenHill.addEventListener("click", () => {
+  modalGreenHill.close();
+});
+
+openAgrobots[0].addEventListener("click", () => {
+  modalAgrobots.showModal();
+});
+
+closeAgrobots.addEventListener("click", () => {
+  modalAgrobots.close();
+});
+
+openWedentify[0].addEventListener("click", () => {
+  modalWedentify.showModal();
+});
+
+closeWedentify.addEventListener("click", () => {
+  modalWedentify.close();
+});
+
+openNodalco[0].addEventListener("click", () => {
+  modalNodalco.showModal();
+});
+
+closeNodalco.addEventListener("click", () => {
+  modalNodalco.close();
+});
+
+openRCA[0].addEventListener("click", () => {
+  modalRCA.showModal();
+});
+
+closeRCA.addEventListener("click", () => {
+  modalRCA.close();
+});
+
+openBabb[0].addEventListener("click", () => {
+  modalBabb.showModal();
+});
+
+closeBabb.addEventListener("click", () => {
+  modalBabb.close();
+});
+
+openLuukjanssen[0].addEventListener("click", () => {
+  modalLuukjanssen.showModal();
+});
+
+closeLuukjanssen.addEventListener("click", () => {
+  modalLuukjanssen.close();
+});
 
 openDatabase[0].addEventListener("click", () => {
   modalDatabase.showModal();
@@ -107,30 +211,6 @@ openVijfluik[0].addEventListener("click", () => {
 
 closeVijfluik.addEventListener("click", () => {
   modalVijfluik.close();
-});
-
-openPortfolio[0].addEventListener("click", () => {
-  modalPortfolio.showModal();
-});
-
-closePortfolio.addEventListener("click", () => {
-  modalPortfolio.close();
-});
-
-openPong[0].addEventListener("click", () => {
-  modalPong.showModal();
-});
-
-closePong.addEventListener("click", () => {
-  modalPong.close();
-});
-
-openWebsite[0].addEventListener("click", () => {
-  modalWebsite.showModal();
-});
-
-closeWebsite.addEventListener("click", () => {
-  modalWebsite.close();
 });
 
 
@@ -269,18 +349,18 @@ let data = {
     "dropdown1" : "Dutch",
     "dropdown2" : "English",
     "aboutme1" : "Hi, my name is Remco Michels.",
-    "aboutme2" : "I'm 20 years old and i am studying software development in Sint Lucas, currently i am in my second year. And i want to become a front-end developer.",
+    "aboutme2" : "I'm 22 years old and i am studying software development in Sint Lucas, currently i am in my second year. And i want to become a front-end developer.",
     "aboutme3" : "About me",
     "aboutme4" : "About",
     "aboutme5" : "About me",
-    "aboutme6" : "My name is Remco Michels and i'm a student software developer. I'm 20 years old an in my second year of Software Development at Sint Lucas. My hobbies are going to the gym, learning about crypto and investing and making/learning about websites.",
+    "aboutme6" : "My name is Remco Michels and i'm a student software developer. I'm 22 years old an in my second year of Software Development at Sint Lucas. My hobbies are going to the gym, learning about crypto and investing and making/learning about websites.",
     "contact1" : "Contact me",
     "form1" : "Name",
     "form2" : "Email",
     "form3" : "Message",
     "projects1" : "My projects",
-    "modalprojects1" : "This database was a school project in my first year of the education of Software development, this was the first database i created. The database was made with PHP, HTML and CSS. It was a really fun and educational project. We could send and recieve user information from and to the database, so we could use this information somewhere else. It was a challenging project because PHP was a bit different than code we used before like HTML/CSS, but we made it work in the end. I also had the ability to play around with the styling of the page to make it more attractive for the user.",
-    "projects2" : "I created this database in my first year as a Software Developer.",
+    "modalprojects1" : "For this project, I contributed to the design and built the entire website independently. We focused on optimizing various elements using Lighthouse to ensure the site performed well. An important aspect of this project was ensuring all components were interconnected, such as matching the correct colors to the right teams. The menu, which included different teams, also needed to display the correct colors for each team, creating a cohesive and functional user experience.",
+    "projects2" : "Designed, developed, optimized website, ensured correct team colors and connections.",
     "projects3" : "We had to re-create a brand page. I chose to re-create the full Ethereum page.",
     "modalprojects2" : "A re-creation of a brand page, i chose the ethereum landing page. For this project we had to use as much bootstrap as possible, here i learned how responsive works and how to build a better layout for your website. At first it was quite the challange to fit everything where it is supposed to go, but in the end everything work out fine.",
     "modalprojects3" : "My vijfluik was my end project for personality, for this project i only used HTML/CSS. I was really happy with the end result of the website, this website had to have 5 element in them that where in connection with your own personality. So i decided to make 5 different pages with each of them explaining the personality and my part in it. This was my most favourite project i've made that year.",
@@ -304,18 +384,18 @@ let data = {
     "dropdown1" : "Nederlands",
     "dropdown2" : "Engels",
     "aboutme1" : "Hallo, mijn naam is Remco Michels.",
-    "aboutme2" : "Ik ben 20 jaar oud en en ik studeer software development op het Sint Lucas college, ik zit nu in mijn 2e leerjaar. En ik wil een front-end developer worden.",
+    "aboutme2" : "Ik ben 22 jaar oud en en ik studeer software development op het Sint Lucas college, ik zit nu in mijn 2e leerjaar. En ik wil een front-end developer worden.",
     "aboutme3" : "Over mij",
     "aboutme4" : "Over mij",
     "aboutme5" : "Over mij",
-    "aboutme6" : "Mijn naam is Remco Michels en ik ben een student software development. Ik ben 20 jaar oud en ik zit in mijn 2e jaar software development op het sint lucas college. Mijn hobby's zijn naar de sportschool gaan, leren over crypto, investeren en het leren/maken van websites",
+    "aboutme6" : "Mijn naam is Remco Michels en ik ben een student software development. Ik ben 22 jaar oud en ik zit in mijn 2e jaar software development op het sint lucas college. Mijn hobby's zijn naar de sportschool gaan, leren over crypto, investeren en het leren/maken van websites",
     "contact1" : "Contact mij",
     "form1" : "Naam",
     "form2" : "Email",
     "form3" : "Bericht",
     "projects1" : "Mijn projecten",
-    "modalprojects1" : "Deze database was een school project in mijn 1e jaar van de opleiding Software development, dit was de eerste database die ik heb gemaakt. Deze database is gemaakt met PHP, HTML en CSS. Het was een leuk en leerzaam project. We konden de gebruiker informatie ontvangen en versturen van en naar de database, zodat we deze informatie weer ergens anders konden gebruiken zoals het laten zien van de gebruiker's naam. Het was een uitdagend project, PHP was anders dan de andere talen die we hebben gebruikt zoals HTML/CSS, het is uiteindlijk wel allemaal goed gelukt Ik had ook de mogelijkheid om rond te spelen met de styling van de pagina om het mooier te maken voor de gebruiker.",
-    "projects2" : "Ik heb deze database gemaakt in mijn eerste jaar als Software Developer.",
+    "modalprojects1" : "Voor dit project heb ik bijgedragen aan het ontwerp en de gehele website zelfstandig gebouwd. We richtten ons op het optimaliseren van verschillende elementen met behulp van Lighthouse om ervoor te zorgen dat de site goed presteerde. Een belangrijk aspect van dit project was ervoor te zorgen dat alle componenten goed op elkaar aansloten, zoals het koppelen van de juiste kleuren aan de juiste teams. Het menu, dat verschillende teams bevatte, moest ook de correcte kleuren voor elk team weergeven, wat zorgde voor een samenhangende en functionele gebruikerservaring.",
+    "projects2" : "Ontworpen, ontwikkeld en geoptimaliseerd website, en gezorgd voor correcte teamkleuren en verbindingen.",
     "projects3" : "We moesten een merk pagina na maken. Ik koos ervoor om de hele ethereum pagina na te maken.",
     "modalprojects2" : "Een re-creatie van een merkpagina, ik koos de ethereum website. Voor dit project moesten we zoveel mogelijk bootstrap gebruiken, hier heb ik geleerd hoe responsive werkt en hoe je een betere lay-out voor je website kunt bouwen. In het begin was het een hele uitdaging om alles te passen waar het hoort, maar uiteindelijk kwam alles goed.",
     "modalprojects3" : "Mijn vijfluik was mijn eindproject voor personality, voor dit project gebruikte ik alleen HTML/CSS. Ik was erg blij met het eindresultaat van de website, deze website moest 5 elementen bevatten die in verband stonden met je eigen persoonlijkheid. Dus besloot ik om 5 verschillende pagina's te maken met elk van hen die de persoonlijkheid en mijn rol daarin uitleggen. Dit was mijn meest favoriete project dat ik dat jaar heb gemaakt.",
