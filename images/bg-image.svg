@@ -1,9 +1,0 @@
-<svg width="0" height="0" class="hidden">
-  <symbol version="1.0" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 278.000000 321.000000" id="bg-image">
-    <g transform="translate(0.000000,321.000000) scale(0.100000,-0.100000)" fill="var(--clr-accent-300)" stroke="none">
-      <path d="M0 2832 l0 -370 735 -423 c404 -233 733 -428 732 -432 -1 -5 -329
--196 -727 -426 l-725 -418 -3 -377 -2 -377 22 15 c13 8 633 366 1378 796 745
-431 1356 783 1357 784 2 2 -2743 1588 -2759 1594 -4 2 -8 -163 -8 -366z"></path>
-    </g>
-  </symbol>
-</svg>
