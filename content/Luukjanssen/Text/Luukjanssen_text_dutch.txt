@@ -1,0 +1,1 @@
+Mijn eerste project waaraan ik gewerkt heb, ik heb hier de footer gemaakt van de website. Later heb ik hier ook nog de kleuren en wat positionering aangepast, ik heb hier toen ook met de klant over gecommuniceerd. Ik heb hier alleen nog met CSS gewerkt.
